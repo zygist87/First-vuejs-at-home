@@ -16,13 +16,13 @@ export default {
   data () {
     return {
       ninjas: [
-          {name: 'Zygis', speciality:'Vue Components', show: false},
-          {name: 'Darius', speciality:'Tractor', show: false},
-          {name: 'Tomas', speciality:'Car', show: false},
-          {name: 'Ona', speciality:'Train', show: false},
-          {name: 'Viktorija', speciality:'Bus', show: false},
-          {name: 'Kazys', speciality:'Bike', show: false},
-          ]
+        { name: 'Zygis', speciality: 'Vue Components', show: false },
+        { name: 'Darius', speciality: 'Tractor', show: false },
+        { name: 'Tomas', speciality: 'Car', show: false },
+        { name: 'Ona', speciality: 'Train', show: false },
+        { name: 'Viktorija', speciality: 'Bus', show: false },
+        { name: 'Kazys', speciality: 'Bike', show: false }
+      ]
     }
   }
 }

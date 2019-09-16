@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: "FirstComponent",
+  name: 'FirstComponent',
   props: {
     age: 25
   }
-};
+}
 </script>
 
 <style lang="scss">

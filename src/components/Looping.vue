@@ -20,25 +20,25 @@
 </template>
 <script>
 export default {
-    name: "Looping",
-    // data: {
-    //     cha: ["Tom", "John", "Marry", "Bruce"],
-    //     ninjas: [
-    //         {name: "Tomas", age: 25},
-    //         {name: "Vaidas", age: 23},
-    //         {name: "Ona", age: 55},
-    //         ]
-    // },
-    data () {
-        return {
-            chaa: ["Tom", "John", "Marry", "Bruce"],
-            ninjas: [
-            {name: "Tomas", age: 25},
-            {name: "Vaidas", age: 23},
-            {name: "Ona", age: 55},
-            ]
-        }
+  name: 'Looping',
+  // data: {
+  //     cha: ["Tom", "John", "Marry", "Bruce"],
+  //     ninjas: [
+  //         {name: "Tomas", age: 25},
+  //         {name: "Vaidas", age: 23},
+  //         {name: "Ona", age: 55},
+  //         ]
+  // },
+  data () {
+    return {
+      chaa: ['Tom', 'John', 'Marry', 'Bruce'],
+      ninjas: [
+        { name: 'Tomas', age: 25 },
+        { name: 'Vaidas', age: 23 },
+        { name: 'Ona', age: 55 }
+      ]
     }
+  }
 }
 </script>
 <style lang="scss">

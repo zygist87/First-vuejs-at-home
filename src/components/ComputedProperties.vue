@@ -12,13 +12,13 @@
 
 <script>
 export default {
-  name: "ComputedProperties",
-  data() {
+  name: 'ComputedProperties',
+  data () {
     return {
       age: 20,
       a: 0,
       b: 0
-    };
+    }
   },
   methods: {
     // addA: function() {
@@ -29,16 +29,16 @@ export default {
     // }
   },
   computed: {
-    addA: function() {
-        console.log("A");
-      return this.a + this.age;
+    addA: function () {
+      console.log('A')
+      return this.a + this.age
     },
-    addB: function() {
-        console.log("B");
-      return this.b + this.age;
+    addB: function () {
+      console.log('B')
+      return this.b + this.age
     }
   }
-};
+}
 </script>
 
 <style lang="scss">

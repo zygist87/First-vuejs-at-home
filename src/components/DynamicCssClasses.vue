@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: "DynamicCssClasses",
+  name: 'DynamicCssClasses',
   props: {
     light: {
       type: [Boolean, String],
       default: true
     }
   }
-};
+}
 </script>
 
 <style lang="scss">

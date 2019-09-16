@@ -10,20 +10,19 @@
 
 <script>
 export default {
-    name: 'IntroToComponents',
-    data() {
-        return {
-            output: 'labytis'
-        }
-        
-    },
-    methods: {
-        submit: function() {
-            console.log(this.$refs);
-            console.log(this.$refs.input.value);
-            this.output = this.$refs.input.value;
-        }
+  name: 'IntroToComponents',
+  data () {
+    return {
+      output: 'labytis'
     }
+  },
+  methods: {
+    submit: function () {
+      console.log(this.$refs)
+      console.log(this.$refs.input.value)
+      this.output = this.$refs.input.value
+    }
+  }
 }
 </script>
 

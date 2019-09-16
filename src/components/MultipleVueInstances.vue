@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-    name: 'MultipleVueInstances'
+  name: 'MultipleVueInstances'
 }
 </script>
 <style lang="scss">

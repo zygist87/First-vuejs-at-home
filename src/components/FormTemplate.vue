@@ -11,12 +11,8 @@
 
 <script>
 export default {
-  name: "FormTemplate",
-  props: {
-    name: "",
-    age: ""
-  }
-};
+  name: 'FormTemplate',
+}
 </script>
 
 <style lang="scss">
