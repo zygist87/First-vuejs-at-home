@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <AddingRouterLinks41/>
+    <router-view></router-view>
     <img alt="Vue logo" src="./assets/logo.png" />
     <h1>Labas</h1>
     <div>
@@ -71,6 +73,10 @@
       <CustomDirectives34/>
       <Filters35/>
       <CustomSearchFilter36/>
+      <RegisteringLocally37/>
+      <Mixins38/>
+      <PostingToFirebase43/>
+      <Labas/>
     </div>
   </div>
 </template>
@@ -100,6 +106,11 @@ import GETRequest33 from "@/components/GETRequest33"
 import CustomDirectives34 from "@/components/CustomDirectives34"
 import Filters35 from "@/components/Filters35"
 import CustomSearchFilter36 from "@/components/CustomSearchFilter36"
+import RegisteringLocally37 from "@/components/RegisteringLocally37"
+import Mixins38 from "@/components/Mixins38"
+import AddingRouterLinks41 from "@/components/AddingRouterLinks41"
+import PostingToFirebase43 from "@/components/PostingToFirebase43"
+import Labas from "@/components/Labas"
 
 export default {
   name: 'app',
@@ -127,7 +138,12 @@ export default {
     GETRequest33,
     CustomDirectives34,
     Filters35,
-    CustomSearchFilter36
+    CustomSearchFilter36,
+    RegisteringLocally37,
+    Mixins38,
+    AddingRouterLinks41,
+    PostingToFirebase43,
+    Labas
   },
   data () {
     return {
