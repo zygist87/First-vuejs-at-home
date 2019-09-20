@@ -76,7 +76,7 @@
       <RegisteringLocally37/>
       <Mixins38/>
       <PostingToFirebase43/>
-      <Labas/>
+      <RetriewingPostFromFirebase44/>
     </div>
   </div>
 </template>
@@ -110,7 +110,7 @@ import RegisteringLocally37 from "@/components/RegisteringLocally37"
 import Mixins38 from "@/components/Mixins38"
 import AddingRouterLinks41 from "@/components/AddingRouterLinks41"
 import PostingToFirebase43 from "@/components/PostingToFirebase43"
-import Labas from "@/components/Labas"
+import RetriewingPostFromFirebase44 from "@/components/RetriewingPostFromFirebase44"
 
 export default {
   name: 'app',
@@ -143,7 +143,7 @@ export default {
     Mixins38,
     AddingRouterLinks41,
     PostingToFirebase43,
-    Labas
+    RetriewingPostFromFirebase44
   },
   data () {
     return {
